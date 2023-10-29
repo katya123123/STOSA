@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "StolzlRegular";
+    src: url("/static/font/Stolzl/stolzl_regular.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "StolzlMedium";
+    src: url("/static/font/Stolzl/stolzl_medium.otf") format("opentype");
+    font-style: bold;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "StolzlLight";
+    src: url("/static/font/Stolzl/stolzl_light.otf") format("opentype");
+    font-style: thin;
+    font-weight: thin;
+}
+
+body, .hero:before {
+    background-color: #F8F7F4;
+}
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  font: 900 9vw/1 sans-serif;
+}
+
+.hero-marquee {
+    padding: 0px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "StolzlRegular";
+    color: #1E1E1E;
+    margin: 0px !important;
+    
+}
+
+.hero-marquee-item__info {
+    grid-template-columns: 2fr 1fr !important;
+    align-items: center;
+}
+
+.hero-marquee-item__tags {
+    align-items: flex-end !important;
+}
+
+.title {
+    padding-bottom: 24px;
+    margin-left: 70px;
+    text-align: left;
+}
+
+.heart {
+    padding-right: 6px;
+}
+
+h2 {
+    font-family: "StolzlLight";
+    color: #787878;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: auto;
+}
+
+h1 {
+    font-family: "StolzlMedium";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    margin: auto;
+}
+
+h4 {
+    color: white !important;
+}
+
+a {
+    color: #0083e8;
+}
